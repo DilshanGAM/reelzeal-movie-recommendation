@@ -1,0 +1,16 @@
+.label {
+    width: 60%;
+    animation: changeWidth 0.5s ease forwards;
+  }
+  
+  @keyframes changeWidth {
+    from {
+        min-width: 100%;
+    }
+    to {
+        min-width: 60%;
+    }
+  }
+
+  
+  

@@ -1,0 +1,12 @@
+.cover {
+    
+    animation: slideDown 0.7s ease forwards;
+    
+    transform: translateY(-100%);
+}
+@keyframes slideDown {
+    to {
+      
+      transform: translateY(0);
+    }
+  }
